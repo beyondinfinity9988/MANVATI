@@ -2,14 +2,185 @@
 @tailwind components;
 @tailwind utilities;
 
-.main{
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.oyo
+{color: #000;
+  overflow-x: hidden;
+  height: 100%;
+  background-image: url("/mr.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%}.card{padding: 30px 40px;
+    margin-top: 60px;margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)}.blue-text{color: #f4460b}.form-control-label{margin-bottom: 0}input, textarea, button{padding: 8px 15px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #ccc;font-size: 18px !important;font-weight: 300}input:focus, textarea:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;border: 1px solid #00BCD4;outline-width: 0;font-weight: 400}.btn-block{text-transform: uppercase;font-size: 15px !important;font-weight: 400;height: 43px;cursor: pointer}.btn-block:hover{color: #fff !important}button:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0}
+ 
+
+
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One);
+::-moz-selection {
+  background: #009688;
+  color: #000;
+}
+
+::selection {
+  background: #009688;
+  color: #000;
+}
+
+ .mo{
+  font-family: 'Bowlby One';
+  background-color: #0a0000ee;
+  color: #00000001;
+  font-size: 8px;
+  animation-duration: 200ms;
+}
+
+.oo{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  perspective: 800px;
+  min-width: 320px;
+  margin-top: 4em;
+}
+
+ .m{
+  display: inline-block;
+  color: #00796B;
+  font-size: 4em;
+  transform-origin: 50% 70%;
+}
+
+br {
+  display: none;
+}
+
+
+/* Every second span */
+
+.m:nth-child(2n) {
+  color: #009688;
+}
+
+.m:nth-child(1) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .5s both;
+}
+
+.m:nth-child(2) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55).5s both;
+}
+
+.m:nth-child(3) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55).5s both;
+}
+
+.m:nth-child(4) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .8s both;
+}
+
+.m:nth-child(5) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 5s both;
+  padding: 0 20px;
+  display: block;
+}
+
+.m:nth-child(6) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 5s both;
+}
+
+.m:nth-child(7) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.4s both;
+}
+
+.m:nth-child(8) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.6s both;
+}
+
+.m:nth-child(9) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.6s both;
+}
+
+.m:nth-child(10) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.8s both;
+}
+
+.m:nth-child(12) {
+
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2s both;
+  padding-left: 20px;
+}
+
+
+
+
+/* ANIMATION */
+
+@keyframes flipUp {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+
+/* RESPONSIVE STUFF */
+
+@media screen and (min-width: 400px) {
+  .m {
+    font-size: 4em;
+  }
+  .m:nth-child(5) {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .m{
+    font-size: 5em;
+  }
+  .m:nth-child(5) {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 916px) {
+  .m{
+    font-size: 6.2em;
+  }
+  .m:nth-child(5) {
+    display: inline-block;
+    margin: 0;
+    
+  }
+}
+/* .main{
 font-family:sans-serif;
 background-color: white;
-text-emphasis-color:white;
+text-emphasis-color:rgb(245, 12, 12);
 text-decoration-color: beige;
 text-size-adjust: red;
-color: rgb(35, 167, 223);
-font-size: x-large;
+color: rgba(233, 239, 242, 0.907);
+font-size: xx-large;
 padding-left: 96px;
 padding-top: 20px;
 font-size: 24px;
@@ -18,7 +189,7 @@ line-height: 32px;
  font-weight: 700;
  text-align: center;
 
-  }
+  } */
 .my{
 
  width: 100%;

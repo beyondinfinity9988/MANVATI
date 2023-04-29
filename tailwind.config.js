@@ -10,6 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+fontFamily :{
+abc :['Kanit', 'sans-serif']
+
+ }
+   
+    
   },
   plugins: [],
 }

@@ -16,6 +16,7 @@ export default class NextJsCarousel extends Component {
 
             {/* iamge 1  */}
 			< div className='relative pl-72 font-mono  ml-40 tetx-2xl pt-5 text-center    '>
+				
 					<h1 className='text-center inline relative pt-2 text-xl'>
 					"It was only because of Apna College and Alpha batch that I was able to crack FAANG!" 
                   </h1>
@@ -28,7 +29,7 @@ export default class NextJsCarousel extends Component {
 				  <h1 className='text-center font-mono pt-2 text-2xl'>
 				  INTERNSHIP @AMAZON (INTERNATIONAL OFFER)
                   </h1>
-
+			
 				  </div></div>
 
                                    {/* image 2  */}
@@ -93,8 +94,8 @@ export default class NextJsCarousel extends Component {
 
                                            {/* image 5  */}
 
-				<div className='h-[800px]  w-[1200px] pt-10'>
-					<Image src="/5.jpg" height={400} className='pl-96 text-right pr-84 opacity-90' width={300} alt="image5"/>
+				<div className='h-[900px]  w-[1200px] pt-10'>
+					<Image src="/5.jpg" height={300} className='pl-96 text-right pr-84 opacity-100' width={300} alt="image5"/>
 					{/* <p className="legend">Image 5</p> */}
 					< div className='relative font-mono pl-80 ml-5 tetx-2xl pt-5 text-center    '>
 					<h1 className='text-center pt-2 text-xl'>

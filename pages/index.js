@@ -1,71 +1,82 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 
+import {ya} from "../public/ya.gif"
 import Animation from '../components/Animation.js'
 import Review from '@/components/Review.js'
 import Batch from '@/components/Batch.js'
 import Footer from '@/components/Footer.js'
+
 import React, { Component } from 'react';
 
 import DemoCarousel from '@/components/Slider.js'
+import Link from 'next/link';
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
-     <><title> SKILLGPT
+     <>
+     
+     <title> skillgpt.com
     </title>
-    <Head>
- <div>
-     <div className='flex  bg-blue-900 justify-between cursor-pointer h-full w-full '> 
-    <Image src="/2176.jpg" width={500} height={50} className='h-[700px] bg-contain w-full mix-blend-overlay pt-20  bg-blue-400 absolute  '  />
+    
+ {/* <div className=''>
+     <div className='flex  bg-black justify-between cursor-pointer h-full w-full '> 
+    <Image src="/mw.jpg" width={500} height={50} className=' bg-contain w-[60%] h-[600px] bg-black mix-blend-overlay pt-20  absolute  '  />
     <a  href='/' className='text-4xl text-white cursor-pointer font-mono font-bold underline pt-5 pl-5'> SKILLGPT </a>
-
+<Image src="/ya.gif" alt='' height={200} width={100}/>
    < h1>  
-   </h1> 
-
-
-<ul className='pl-3 pr-2 pt-6 bg-blue-900 pb-5  px-4 space-x-3 space-y-1 font-serif hover:bg-gray-700   text-2xl text-white ' >
-<a href='/' > Home </a>
-<a href='/' >  Courses  </a>
- <a href='/' > Goals </a>
-<a href='/' > Instructors  </a>
-< a href='/' > Contact Us </a>
+   </h1>  */}
+< div className='flex bg-black justify-between items-center'>
+<div>
+<ul className='pl-3  pt-6 bg-black pb-5  px-4 space-x-3 space-y-1 font-serif    text-2xl text-white ' >
+<a  href='/' className='text-4xl text-white cursor-pointer font-abc font-extrabold  overflow-hidden hover:text-orange-700  pt-5 pl-8'> SKILLGPT </a>
+<a href='#' className=' hover:text-orange-500 pl-40' > Home </a>
+<a href='#' className=' hover:text-orange-500' >  Courses  </a>
+ <a href='#' className=' hover:text-orange-500'> Goals </a>
+<a href='#' className=' hover:text-orange-500'> Instructors  </a>
+< a href='#'className=' hover:text-orange-500' > Contact Us </a>
 
 </ul>
-<div className='pr-10 pt-6 '>
-<button className='bg-white border-cyan-900 px-2 animate-bounce text-blue-800 text-center rounded text-xl pb-3 font-sans pr-2 pt-2 pl-3 py-1' > Enroll Now
+</div>
+<div className='flex justify-between'>
+<div className='pr-10 pt-6 pb-4'>
+<button className=' border-cyan-900 px-6 bg-white animate-pulse hover:bg-green-500 text-black focus:bg-transparent items-center text-center rounded-full text-xl pb-3 font-abc pt-2 pl-5 py-0' > Enroll Now
  </button>
- </div>
-    </div>
-    <div className='pt-64 pl-10 justify-end text-right pr-56 '>
-     < button className='bg-blue-800 px-2 animate-bounce text-white text-center rounded text-2xl pb-3 font-sans pr-2 pt-2 pl-3 py-1'>
+</div>
+<div className='pr-10 pt-6'>
+ <button className= 'border-cyan-900 px-6 niline bg-white animate-pulse hover:bg-green-500 text-black focus:bg-transparent items-center text-center rounded-full text-xl pb-3 font-abc pt-2 pl-5 py-0'>
      SIGN UP
      </button>
-    
+ </div>
+</div>
+    </div>
+   < div className=' bg-blue-100  items-center'>
+    {/* <div className='pt-2 pl-10  text-right pr-56 '>
+    <Image src="/mw.jpg" width={500} height={50} className=' bg-contain w-[400px] h-[600px]   pt-2  '  />
+   </div> */}
+   <div>
+   <Image src="/ya.gif" alt='' height={50} width={100} className='w-[100%] h-[10%]'/>
+      </div>
     </div>
    
- </div>
 
-   </Head>
+
+   
    
   
     
-  <div>
+
    <Animation/>
-
-
-   
-  
-   <DemoCarousel/>
+<DemoCarousel/>
    <Batch/>
    
    <Footer/>
 
-  </div>
- 
+
     </>
+    
   )
 
 

@@ -1,9 +1,10 @@
 
 import React from 'react';
 import {CiMail} from 'react-icons/ci';
+
 export default function Batch () {
     return(
-        
+        <>
         <div className='h-full pt-10 flex justify-between bg-black'>
  
 < div className='pl-20 '>
@@ -22,7 +23,7 @@ export default function Batch () {
 
 
 
- <div className='pr-48 pb-4'>
+ <div className='pr-48 mb-10 '>
  < h1 className='text-xl  text-white cursor-pointer text font-serif pt-10 p'> HELPFUL LINKS
  </h1>
 
@@ -51,8 +52,8 @@ export default function Batch () {
  </div>
 
         </div>
- 
-       
+
+ </>
     )
 
 
