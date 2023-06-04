@@ -87,9 +87,7 @@ export default function Home() {
     )}
   </header>
 
-  <div>
-    <Cards />
-  </div>
+ <Cards />
 
   <div className="flex-grow">
     <Animation />
