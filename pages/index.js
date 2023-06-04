@@ -87,7 +87,7 @@ export default function Home() {
     )}
   </header>
 
-  <div className="flex justify-center items-center py-9">
+  <div>
     <Cards />
   </div>
 
