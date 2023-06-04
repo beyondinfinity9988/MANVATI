@@ -6,6 +6,7 @@ import Review from '@/components/Review.js';
 import Batch from '@/components/Batch.js';
 import Footer from '@/components/Footer.js';
 import DemoCarousel from '@/components/Slider.js';
+import Cards from '@/components/Cards.js';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -87,7 +88,7 @@ export default function Home() {
   </header>
 
   <div className="flex justify-center items-center py-9">
-    <Image src="/ya.gif" alt="" height={200} width={1000} />
+    <Cards />
   </div>
 
   <div className="flex-grow">
