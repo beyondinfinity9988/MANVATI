@@ -86,9 +86,9 @@ export default function Home() {
       </nav>
     )}
   </header>
-
+<div>
  <Cards />
-
+</div>
   <div className="flex-grow">
     <Animation />
     <DemoCarousel />
