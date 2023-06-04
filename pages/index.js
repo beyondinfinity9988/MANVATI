@@ -33,18 +33,7 @@ export default function Home() {
           <a href="/" className="text-white hover:text-orange-500">
             Home
           </a>
-          <a href="/" className="text-white hover:text-orange-500">
-            Courses
-          </a>
-          <a href="/" className="text-white hover:text-orange-500">
-            Goals
-          </a>
-          <a href="/" className="text-white hover:text-orange-500">
-            Instructors
-          </a>
-          <a href="/" className="text-white hover:text-orange-500">
-            Contact Us
-          </a>
+      
         </nav>
         <button
           className="ml-4 text-white border border-cyan-900 px-6 py-2 rounded-full text-lg focus:bg-transparent"
